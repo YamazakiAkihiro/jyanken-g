@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>じゃんけん</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="message1">
+        相手の選択は ？
+        </div>
+        <div id="message2">
+            <img src="img/pon.gif" alt="">
+        </div>
+        <div id="message3">
+        勝敗の結果は ？
+        </div>
+        <form>
+        あなたの選択は
+        <select id="mySelect">
+        <option>グー</option>
+        <option>チョキ</option>
+        <option>パー</option>
+        </select>
+        <input type="button" value="勝負" onclick="myGame()">
+        </form>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="js/janken.js"></script>
+</body>
+</html>
